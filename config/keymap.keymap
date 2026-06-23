@@ -14,9 +14,19 @@
             layers = <2>;
         };
 
-        test {
+        ui {
+            bindings = <&bt BT_NXT>;
+            key-positions = <19 20>;
+        };
+
+        jk {
             bindings = <&bt BT_NXT>;
             key-positions = <33 34>;
+        };
+
+        m, {
+            bindings = <&bt BT_CLR>;
+            key-positions = <47 48>;
         };
     };
 
