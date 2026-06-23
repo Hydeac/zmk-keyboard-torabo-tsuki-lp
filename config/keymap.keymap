@@ -28,6 +28,11 @@
             bindings = <&bt BT_CLR>;
             key-positions = <47 48>;
         };
+
+        yu {
+            bindings = <&none>;
+            key-positions = <18 19>;
+        };
     };
 
     keymap {
