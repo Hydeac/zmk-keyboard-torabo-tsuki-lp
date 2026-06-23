@@ -13,7 +13,6 @@
         32 // H
         46 // N
     >;
-    require-prior-idle-ms = <200>;
 };
 
 
