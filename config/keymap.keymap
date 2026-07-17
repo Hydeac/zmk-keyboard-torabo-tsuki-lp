@@ -141,11 +141,11 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans       &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans       &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &pan_view    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &orbit_view  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans       &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans       &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &pan_view  &orbit_view  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
