@@ -29,20 +29,6 @@
     };
 };
 
-// 左ボール（peripheralから転送されてくる分）
-&pointing_device_split_listener {
-    // 通常時: スクロール
-    input-processors = <&zip_xy_to_scroll_mapper>,
-                       <&zip_scroll_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
-                       <&zip_scroll_scaler 1 128>;
-
-    // pan/orbitマクロキーのホールド中: XY通過
-    view {
-        layers = <6>;   // VIEW_LAYERの番号に合わせる
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
-                           <&zip_xy_scaler 1 4>;
-    };
-};
 
 &size_s_transform {
     col-offset = <7>;
